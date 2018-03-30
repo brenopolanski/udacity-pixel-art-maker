@@ -1,10 +1,10 @@
 (() => {
-  // set global variables
+  // Set global variables
   const $sizePicker  = document.querySelector('#sizePicker');
   const $colorPicker = document.querySelector('#colorPicker');
   const $table = document.querySelector('#pixelCanvas');
 
-  // add listener to select grid size
+  // Add listener to select grid size
   $sizePicker.addEventListener('submit', (event) => {
     // prevent page refresh on submit
     event.preventDefault();
@@ -27,12 +27,18 @@
         let newCell = newRow.insertCell();
 
         newCell.onclick = changeColor;
+        newCell.ondblclick = cleanColor;
       }
     }
   }
 
-  // change the color of the clicked cell to current color
+  // Change the color of the clicked cell to current color
   function changeColor() {
     this.style.background = $colorPicker.value;
+  }
+
+  // Clears the cell when it has a double click
+  function cleanColor() {
+    this.style.background = '#fff';
   }
 })();
