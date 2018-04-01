@@ -25,6 +25,7 @@ td {
 table {
   margin: 0 auto;
   border-collapse: collapse;
+  cursor: url('pencil.png') 0 32, auto;
 }
 
 tr {
