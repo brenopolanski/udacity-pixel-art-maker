@@ -6,4 +6,4 @@ Front-End Web Developer Nanodegree - Reviewer Training.
 
 [![demo](./demo.png)](http://brenopolanski.com/udacity-pixel-art-maker/)
 
-> [Check it live](http://brenopolanski.com/udacity-pixel-art-maker/).
+> [Check it live](http://brenopolanski.com/udacity-pixel-art-maker/)
